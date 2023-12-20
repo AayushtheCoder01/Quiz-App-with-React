@@ -1,0 +1,23 @@
+.header-div{
+  background-color: 
+  #040f23;
+}
+html{
+  background: #040f23;
+}
+.header-h1{
+  background: linear-gradient(to right, rgb(255, 106, 0), rgb(225, 0, 255));
+  color: transparent;
+  -webkit-background-clip: text;
+  text-shadow: 0px 0px 40px rgba(255, 0, 0, 0.464);
+  /* rgb(255, 106, 0 */
+  animation: animation 1s infinite alternate;
+}
+
+@keyframes animation{
+  100% {
+  text-shadow: 0px 0px 40px rgba(89, 0, 255, 0.485);
+  /* rgb(225, 0, 255) */
+
+  }
+}
